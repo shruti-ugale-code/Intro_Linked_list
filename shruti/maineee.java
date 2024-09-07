@@ -11,6 +11,7 @@ public class maineee {
         list.Insert(5);
         list.Insert(5);
         list.Insert(5);
+        list.Insertval(8);
 
         list.display();
 
