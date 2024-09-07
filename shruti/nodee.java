@@ -19,6 +19,17 @@ public class nodee {
          size+=1;
 
      }
+     public void Insertval(int val){
+         if(tail==null){
+             Insert(val);
+             return;
+         }
+         node n=new node(val);
+         tail.next=n;
+         n=tail;
+         size++;
+
+     }
      public void display(){
          node temp=head;
          while (temp!=null){
